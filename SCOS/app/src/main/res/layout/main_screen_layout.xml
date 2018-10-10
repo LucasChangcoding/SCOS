@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="470dp">
+        <Button
+            android:id="@+id/MainScreenBtn_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn2"
+            android:onClick="ClickBtn_2"
+            android:text="@string/order"
+            android:textSize="14sp" />
+        <Button
+            android:id="@+id/MainScreenBtn_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn3"
+            android:onClick="ClickBtn_3"
+            android:text="@string/order_list"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/MainScreenBtn_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn4"
+            android:text="@string/log_in"
+            android:textSize="14sp"/>
+        <Button
+            android:id="@+id/MainScreenBtn_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn5"
+            android:text="@string/help"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" />
+
+</RelativeLayout>

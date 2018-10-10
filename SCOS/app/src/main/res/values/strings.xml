@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">快到碗里来</string>
+    <string name="order">点餐</string>
+    <string name="title_activity_button3">订单</string>
+    <string name="order_list">订单</string>
+    <string name="log_in">登陆</string>
+    <string name="help">帮助</string>
+</resources>
